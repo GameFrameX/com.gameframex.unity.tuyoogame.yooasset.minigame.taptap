@@ -41,23 +41,36 @@ GameFrameX の YooAsset TapTap ミニゲームランタイムコンポーネン�
 
 ## クイックスタート
 
-### インストール（いずれかを選択）
+### インストール
 
-1. `manifest.json` の `dependencies` セクションに以下を追加：
-   ```json
-   {"com.gameframex.unity.tuyoogame.yooasset.minigame.taptap": "https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.taptap.git"}
-   ```
+Unity プロジェクトの `Packages/manifest.json` を編集し、`scopedRegistries` セクションを追加してください：
 
-2. Unity の Package Manager で `Git URL` を使用してパッケージを追加：https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.taptap.git
+```json
+{
+  "scopedRegistries": [
+    {
+      "name": "GameFrameX",
+      "url": "https://gameframex.upm.alianblank.uk",
+      "scopes": [
+        "com.gameframex"
+      ]
+    }
+  ]
+}
+```
 
-3. リポジトリをダウンロードして Unity プロジェクトの `Packages` ディレクトリに配置。
+`scopes` は、どのパッケージをこのレジストリから解決するかを制御します。`com.gameframex` で始まるパッケージのみがこのレジストリから取得されます。
 
-### 使用方法
+Then add the package to `dependencies`:
 
-1. TapTap ミニゲーム SDK が統合され、`TAPTAPMINIGAME` マクロが有効になっていることを確認
-2. `TapTapFileSystemCreater.CreateFileSystemParameters(...)` でファイルシステムパラメータを生成
-3. パラメータを YooAsset のファイルシステム作成フローに渡す
-4. YooAsset の標準フローに従って初期化、バージョンリクエスト、マニフェスト読み込み、アセット読み込みを行う
+```json
+{
+  "dependencies": {
+    "com.gameframex.unity.tuyoogame.yooasset.minigame.taptap": "1.0.0"
+  }
+}
+```
+
 
 ## ドキュメントとリソース
 
