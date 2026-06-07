@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.taptap/compare/1.0.0...1.0.1) (2026-06-07)
+
+
+### Bug Fixes
+
+* 统一 LICENSE.md 为 Apache 2.0 标准完整文本 ([24d18dd](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.taptap/commit/24d18dd6dbf45b5e89da1a22e82ad467e0ee3d8f))
+* 补全包规范文件（LICENSE/CHANGELOG/URL 字段/unity 字段） ([cdbf9a9](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.taptap/commit/cdbf9a998d83895b09f8fab246871d6067019e39))
+
 # 1.0.0 (2026-03-05)
 
 
