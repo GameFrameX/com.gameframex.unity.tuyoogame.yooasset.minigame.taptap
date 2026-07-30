@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.taptap/compare/1.0.1...1.0.2) (2026-07-30)
+
+
+### Bug Fixes
+
+* 更新依赖项 com.gameframex.unity.tuyoogame.yooasset 至 2.9.4 ([0eb2772](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.taptap/commit/0eb2772226adfe0276c59d4e87ec7c8a3b715f19))
+
 ## [1.0.1](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.taptap/compare/1.0.0...1.0.1) (2026-06-07)
 
 
